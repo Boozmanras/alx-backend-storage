@@ -4,8 +4,8 @@ competency with data handling and storage
 
 # Author
 
-<Victor paul>
+[Victor paul]
 
 # Licence
 
-This is part of alx backend software engineering curiculum 
+This is part of alx backend software engineering curriculum 
