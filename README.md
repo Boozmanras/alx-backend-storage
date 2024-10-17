@@ -4,7 +4,7 @@ competency with data handling and storage
 
 # Author
 
-[Victor paul]
+Victor paul
 
 # Licence
 
