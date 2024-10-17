@@ -1,3 +1,5 @@
+-- This procedure computes and stores the average weighted score for all users
+
 DELIMITER //
 
 CREATE PROCEDURE ComputeAverageWeightedScoreForUsers()
@@ -15,6 +17,7 @@ BEGIN
             LEAVE read_loop;
         END IF;
 
+        -- Call the procedure to compute the average weighted score for each user
         CALL ComputeAverageWeightedScoreForUser(u_id);
     END LOOP;
 
@@ -22,4 +25,3 @@ BEGIN
 END //
 
 DELIMITER ;
-
